@@ -16,10 +16,15 @@ public class HelloDemoApp
 
 
         //retrieve bean form spring container
-        TrackCoach theCoach = context.getBean("myCoach",TrackCoach.class);
+        Coach theCoach = context.getBean("tennisCoach", Coach.class);
 
-        //print out result
+        //call method on bean ...
             System.out.println(theCoach.getDailyWork());
+
+        //call method get Daily fortune
+        System.out.println(theCoach.getDailyFortune());
+
+
 //            System.out.println(theCoach.getDailyFortune());
 //            System.out.println(theCoach.getUserName());
 //            System.out.println(theCoach.getEmailAddress());

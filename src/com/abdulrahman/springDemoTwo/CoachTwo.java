@@ -6,4 +6,7 @@ package com.abdulrahman.springDemoTwo;
 public interface CoachTwo {
 
     public String getDialyWorkOut();
+
+
+    public int getDialyNumber();
 }

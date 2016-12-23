@@ -6,4 +6,6 @@ package com.abdulrahman.springDemoTwo;
 public interface FortuneService {
 
     public String getFortune();
+
+
 }

@@ -7,7 +7,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
  */
 public class HelloDemoApp
 {
-    
+
     public static void main(String[] args) {
 
 
